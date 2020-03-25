@@ -9,4 +9,9 @@ def reverse_each_word(str)
   newstr
 end 
 
+def reverse_each_word(strng)
+  arr2 = strng.split(" ")
+  arr2.collect do |palabra| palabra.reverse
+  str2 = arr2.join(" ")
+end
 
