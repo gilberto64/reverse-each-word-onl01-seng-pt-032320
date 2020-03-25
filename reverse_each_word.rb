@@ -10,6 +10,7 @@ def reverse_each_word(str)
 end 
 
 def reverse_each_word(strng)
+  str2 = " "
   arr2 = strng.split(" ")
   arr2.collect do |palabra| palabra.reverse
   str2 = arr2.join(" ")
