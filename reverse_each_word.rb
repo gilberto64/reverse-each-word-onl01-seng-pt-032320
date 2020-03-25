@@ -1,11 +1,12 @@
 def reverse_each_word(str)
   arr = str.split(" ")
   newarr = []
+  newstr = " "
   arr.each do |word| 
     newarr << word.reverse 
-    newarr.join 
+    newstr = newarr.join
   end 
-  
+  newstr
 end 
 
 
