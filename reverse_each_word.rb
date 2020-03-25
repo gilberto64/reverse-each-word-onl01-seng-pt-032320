@@ -12,8 +12,8 @@
 def reverse_each_word(str)
   str2 = " "
   arr2 = str.split
-  arr2.collect do |palabra| 
-    str2 << palabra.reverse
+  arr2.collect do |palabra| palabra.reverse
+  arr2 
   end 
   
  end
